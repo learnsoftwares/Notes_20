@@ -1,0 +1,17 @@
+https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html#license-lightbox
+
+Oracle account
+
+Java - Jdk8
+
+    1. jdk installation - give next for all popup window
+    2. jre installation - give next for all popup window
+    
+ Remove oracle path - system variables path
+ Add jave current folder path - system variables path
+ 
+ 
+ Verify
+ 
+ Command prompt - Type 
+ java -version
