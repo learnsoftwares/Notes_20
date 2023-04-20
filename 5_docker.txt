@@ -68,3 +68,7 @@ docker rmi imagename
 					
 
 docker commit containerid/name newimagenmae
+docker login
+docker logout
+docker tag imagid newimagename
+docker push newimagename
