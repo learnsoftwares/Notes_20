@@ -1,0 +1,70 @@
+Basic DevOps
+
+		
+		Docker introduction - 
+					System - virtualization(vmware/virtualbox)/Contanarization
+					Application - monolithic vs microservices 
+								(menswear+womenswear+mobiles) -5
+								2 - mobiles
+								1- menswear + womenswear
+	----------------------------------------------------------------------------
+		Docker commands
+			docker --version
+			docker info
+			
+			Images
+			docker images
+
+			Containers
+			docker ps
+
+			docker run -it imagename  
+			docker run -d -p 8081:8080 imagename
+			docker run -d -P imagename
+
+			docker commit containerid/name newimagename
+
+	----------------------------------------------------------------------------
+			
+
+
+
+				ctrl + p +q - Come out from the container without exit the container
+				shift+insert   - paste the content in docker playground terminal
+				ctrl+insert  - copy the content in docker playground terminal
+
+	 
+	----------------------------------------------------------------------------
+
+docker info
+docker --version
+docker images
+docker ps
+
+
+
+docker pull imagename
+docker run -it imagename
+docker rmi imagename
+
+		container - Containerid/name
+			
+			docker create imagename
+			docker run imagename	
+	
+			docker stop containerid/name
+			docker start containerid/name
+			docker pause containerid/name
+			docker unpause containerid/name
+			docker kill containerid/name
+			docker rm containerid/name
+			docker logs containerid/name
+			docker rename oldcontainername newcontainername
+			docker port containerid/name
+
+			docker attach 
+			docker exec -it 
+			
+					
+
+docker commit containerid/name newimagenmae
